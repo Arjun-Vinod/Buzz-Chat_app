@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = socketIo(server, {
   cors: {
-    origin: "https://buzz-chatt-app.netlify.app/",
+    origin: "https://buzz-chatt-app.netlify.app",
     methods: ["GET", "POST"],
     allowedHeaders: ["Content-Type"],
     credentials: true,
@@ -15,7 +15,7 @@ const io = socketIo(server, {
 });
 
 app.use(cors({
-  origin: "https://buzz-chatt-app.netlify.app/",
+  origin: "https://buzz-chatt-app.netlify.app",
   methods: ["GET", "POST"],
 }));
 
