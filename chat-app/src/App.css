@@ -133,4 +133,51 @@
     padding: 5px;
     margin-bottom: 10px;
   }
-  
+  @media (max-width: 1024px) {
+    .messages-container {
+        width: 600px;
+    }
+}
+
+@media (max-width: 768px) {
+    .messages-container {
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .messages-container {
+        width: 95%;
+    }
+}
+@media (max-width: 768px) {
+  .exit-btn {
+      width: 70px;
+      font-size: 12px;
+  }
+  .room-code {
+    font-size: 16px;
+}
+
+.code {
+    font-size: 14px;
+    height: 18px;
+    padding: 4px;
+}
+}
+
+@media (max-width: 480px) {
+  .exit-btn {
+      width: 60px;
+      font-size: 10px;
+  }
+  .room-code {
+    font-size: 14px;
+}
+
+.code {
+    font-size: 12px;
+    height: 16px;
+    padding: 3px;
+}
+}
