@@ -6,7 +6,7 @@ import { IoSend } from "react-icons/io5";
 import { FaCopy } from "react-icons/fa";
 import { TiTick } from "react-icons/ti";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://buzz-chat-app-p81t.onrender.com");
 
 function App() {
   const [roomCode, setRoomCode] = useState("");
